@@ -171,11 +171,11 @@ class LabWork4
         {
             rpn.Add(operators.Pop());
         }
-            operators.Pop();
-        }
+        operators.Pop();
+    }
 
-        public static bool IsNum(string item)
-        {
-            return Double.TryParse(item, out double number);
-        }
+    public static bool IsNum(string item)
+    {
+        return Double.TryParse(item, out double number);
+    }
 }
